@@ -1,0 +1,26 @@
+{
+  "name": "async-fibonacci",
+  "version": "1.0.0",
+  "description": "example how to use Promise in async context",
+  "main": "index.ts",
+  "scripts": {
+    "clean": "rimraf ./dist",
+    "build": "npm run clean && tsc -b",
+    "start": "node src",
+    "local": "ts-node src",
+    "local:watch": "nodemon src -e ts,json --exec 'npm run local'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com:ah584d/node-async-fibonacci.git"
+  },
+  "author": "Avraham Hamu",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^6.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
