@@ -6,9 +6,9 @@
   "scripts": {
     "clean": "rimraf ./dist",
     "build": "npm run clean && tsc -b",
-    "start": "node src",
-    "local": "ts-node src",
-    "local:watch": "nodemon src -e ts,json --exec 'npm run local'"
+    "start:prod": "node src",
+    "start": "ts-node src",
+    "start:watch": "nodemon src -e ts,json --exec 'npm run local'"
   },
   "repository": {
     "type": "git",
