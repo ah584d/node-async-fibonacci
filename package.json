@@ -8,7 +8,7 @@
     "build": "npm run clean && tsc -b",
     "start:prod": "node src",
     "start": "ts-node src",
-    "start:watch": "nodemon src -e ts,json --exec 'npm run local'"
+    "start:watch": "nodemon src -e ts,json --exec 'npm run start'"
   },
   "repository": {
     "type": "git",
