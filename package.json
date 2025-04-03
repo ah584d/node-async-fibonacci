@@ -1,6 +1,6 @@
 {
   "name": "async-fibonacci",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "example how to use Promise in async context",
   "main": "index.ts",
   "scripts": {
